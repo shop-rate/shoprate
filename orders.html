@@ -1,10 +1,46 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>ShopRate - Orders</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>ShopRate</title>
+  <style>
+    nav ul {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      gap: 20px;
+      background: #f0f0f0;
+      margin: 0;
+    }
+    nav ul li a {
+      text-decoration: none;
+      color: #333;
+      padding: 10px 15px;
+      display: inline-block;
+    }
+    nav ul li a:hover {
+      background-color: #ddd;
+      border-radius: 5px;
+    }
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+    }
+  </style>
 </head>
 <body>
-  <h1>Orders</h1>
-  <p>View and manage all orders.</p>
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="products.html">Products</a></li>
+      <li><a href="orders.html">Orders</a></li>
+      <li><a href="customers.html">Customers</a></li>
+      <li><a href="login.html">Login</a></li>
+    </ul>
+  </nav>
+
+  <h1>Welcome to ShopRate</h1>
+  <p>Your admin-powered eCommerce dashboard.</p>
 </body>
 </html>
